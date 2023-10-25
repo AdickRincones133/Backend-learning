@@ -1,3 +1,4 @@
 .vscode/launch.json
 
-*/*/node_modules
+NodeJs/local-library-website/node_modules/
+NodeJs/basic-informational-site/node_modules/
