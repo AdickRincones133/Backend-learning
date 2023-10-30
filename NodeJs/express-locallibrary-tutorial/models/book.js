@@ -12,7 +12,6 @@ const BookSchema = new Schema({
 
 // Virtual for book's URL
 BookSchema.virtual("url").get(function () {
-  // We don't use an arrow function as we'll need the this object
   return `/catalog/book/${this._id}`;
 });
 
