@@ -1,0 +1,5 @@
+  hr
+  p
+    a(href=book.url+'/delete') Delete Book
+  p
+    a(href=book.url+'/update') Update Book
